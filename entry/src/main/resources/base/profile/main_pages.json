@@ -1,0 +1,16 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/QuestionPage",
+    "pages/LoginPage",
+    "pages/WebPage",
+    "pages/TestPage",
+    "pages/SearchPage",
+    "pages/ClockInPage",
+    "pages/StudyTimePage",
+    "pages/WordPage",
+    "pages/AudioPage",
+    "pages/SettingsPage",
+    "pages/ProfilePage"
+  ]
+}
