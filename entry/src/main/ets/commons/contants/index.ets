@@ -1,0 +1,1 @@
+export const LOGIN_EVENT_NAME = 'LOGIN_EVENT_NAME'
