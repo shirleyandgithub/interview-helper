@@ -1,0 +1,55 @@
+{
+  "app": {
+//    "signingConfigs": [
+//      {
+//        "name": "default",
+//        "type": "HarmonyOS",
+//        "material": {
+//          "certpath": "/Users/shirley/.ohos/config/default_interview_success2_ir3hM4YCgkxqXiE7IxqEVg0uKIo9DYqY3eifudx8EPU=.cer",
+//          "storePassword": "0000001B3CC906B627B00409D66E834A6BB776BFC6B469C3B201130890127F689D9D01C6585E99FC8A4709",
+//          "keyAlias": "debugKey",
+//          "keyPassword": "0000001B2A0B3FEFF15175E39132A1B301A4516235C0C138A9DAD7D130A0A0C102C6540A1D361D116A8350",
+//          "profile": "/Users/shirley/.ohos/config/default_interview_success2_ir3hM4YCgkxqXiE7IxqEVg0uKIo9DYqY3eifudx8EPU=.p7b",
+//          "signAlg": "SHA256withECDSA",
+//          "storeFile": "/Users/shirley/.ohos/config/default_interview_success2_ir3hM4YCgkxqXiE7IxqEVg0uKIo9DYqY3eifudx8EPU=.p12"
+//        }
+//      }
+//    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
